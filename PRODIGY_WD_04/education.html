@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Education Details</h2>
+
+<table>
+  <tr>
+    <th>Course</th>
+    <th>Passing Year</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>SSC</td>
+    <td>2019</td>
+    <td>89.20</td>
+  </tr>
+  <tr>
+    <td>Dipoma</td>
+    <td>2022</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>Engineering</td>
+    <td>2022</td>
+    <td>93</td>
+  </tr>
+  <tr>
+    <td>Mtech</td>
+    <td>2029</td>
+    <td>97</td>
+  </tr>
+</table>
+<script>
+    function myFunction() {
+document.getElementById("demo").innerHTML = "Printig Education Detatails...";
+}
+</script>
+<center><button onclick="myFunction()">Print Education Details</button></center>
+<center><p id="demo"></p></center>
+
+</body>
+</html>
